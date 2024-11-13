@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      .container {
+        display:grid;
+        height: 100vh;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.3fr 1.5fr 1.5fr 0.3fr;
+        grid-template-areas:
+        "header header header header"
+        "main main main sidebar"
+        "main main main sidebar"
+        "footer footer footer footer";
+         grid-gap : 1rem;
+      }
+      header{
+        background:#1e90ff;
+        grid-area:header;
+        border-radius:0.5rem;
+        text-align:center;
+        align-content:center;
+        box-shadow:5px 5px 5px#0077ea;
+      }
+      footer {
+        background:#4169e1;
+        grid-area:footer;
+        border-radius:0.5rem;
+        text-align:center;
+        align-content:center;
+        box-shadow:5px 5px 5px #1d44b8;
+      }
+
+      .main {
+        background-color:#3cb371;
+        grid-area:main;
+        display:flex;;
+        flex-wrap:wrap;
+        border-radius:0.5rem;
+        box-shadow:5px 5px 5px #2f8d59;
+        gap:10px;
+        padding:10px;
+       
+      }
+      #sidebar{
+        background-color:#ff6347;
+        grid-area:sidebar;
+        border-radius:0.5rem;
+        text-align:center;
+        box-shadow:5px 5px 5px #e02200;
+      }
+      .item{
+        margin:10px;
+        height:50px;
+        text-align:center;
+        padding:20px;
+        background-color:#2f8d59;
+        border-radius:0.5rem;
+        box-shadow:5px 5px 5px #226741;
+    
+
+
+    
+
+       
+
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <main class="main">
+        
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+        <div class="item">item6</div>
+        <div class="item">item7</div>
+        <div class="item">item8</div>
+        <div class="item">item9</div>
+        <div class="item">item10</div>
+        <div class="item">item11</div>
+        </main>
+      <footer>Footer</footer>
+      <div id="sidebar">sidebar</div>
+      </section>
+    </div>
+  </body>
+</html>

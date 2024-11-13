@@ -1,0 +1,158 @@
+.bar ul{
+    background-color: rgba(255, 106, 0, 0.848);
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    list-style-type:none;
+    
+}
+.bar a{
+    color:white;
+    display: block;
+    padding: 15px;
+    text-align:center;
+    text-decoration:none;
+}
+.bar li{
+    float: right;
+}
+.home{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    height: 30%
+}
+.img2{
+    display: block;
+    float:left;
+    width: 40%;
+    height: 30%;
+    margin-right: 20px;
+}
+.about1{
+    float: right 20px;;
+}
+.p1{
+    margin-left:20px; 
+    font-size: large;
+    font-family:isolate
+}
+.read-more-box {
+    display: inline-block;
+    margin-top: 10px; 
+  }
+  
+  .read-more-btn {
+    background-color: #FF7F00; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer; 
+  }
+  
+  .read-more-btn:hover {
+    background-color: #FF5500
+  }
+  .pcar{
+    font-size:larger
+  }
+  #car{
+    display: block;
+    float:left;
+    width: 30%;
+    height: 20%;
+    margin-right: 20px;
+    margin-left:30px;
+  }
+  #bus{
+    display: flex;
+    float:right;
+    width: 25%;
+    height: 20%;
+    margin-right: 20px;
+    margin-left:30px;
+    align-items:flex-start;
+    
+  }
+  .pbus{
+    font-size:larger;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:20px;
+    margin-bottom:20px;
+    float:right
+  }
+  .text-section{
+    width: 60%;
+   
+  }
+  .reserve-box {
+    display: inline-block;
+    margin-top: 10px; 
+  }
+  
+  .reserve-btn {
+    background-color: #FF7F00; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    border-radius: 5px;
+    cursor: pointer; 
+  }
+  
+  .reserve-btn:hover {
+    background-color: #FF5500
+  }
+  #logistic{
+    display: flex;
+    float:left;
+    width: 25%;
+    height: 20%;
+    margin-right: 20px;
+    margin-left:30px;
+  }
+  .text.logistic{
+    width:60%;
+    margin-left:20px; 
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .whole{
+    margin-top:18cap;
+  }
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: black;
+    color: white;
+}
+.container{
+  align-content:stretch;
+}
+
+ 

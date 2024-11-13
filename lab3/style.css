@@ -1,0 +1,115 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 100px;
+    background-color: #5b5b5b;
+  }
+  .card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .radius-10 {
+    border-radius: px;
+  }
+  
+  .radius-30 {
+    border-radius: 30px;
+  }
+  .btn {
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .green {
+    background-color: #28a745;
+  }
+  
+  .orange {
+    background-color: #ffc107;
+  }
+  
+  .purple {
+    background-color: #6f42c1;
+  }
+  .btn:hover {
+    opacity: 0.8;
+  }
+.hover-button {
+    background-color: #ff66b2; 
+    border: 3px solid #ff99cc; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s; 
+    align-content:center;
+  }
+  
+  .hover-button:hover {
+    background-color: #7a316f; 
+    border-color: #4a2044; 
+  }
+  body {
+    background-color: #bdc3c7;
+}
+h1 {
+    color : 9b59b6;
+}
+h2 {
+    color : orange;
+}
+li {
+    color : blue;
+}
+p {
+    background-color: yellow;
+}
+.hello {
+    background-color: white;
+}
+
+#special {
+    border: 2px solid rgb(56, 56, 255);
+}
+input {
+    border: 3px red;
+}
+div p {
+    font-size: 25px;
+}
+input[type= "text"]{
+    background-color: grey;
+}
+input[type="checkbox"]:checked {
+    margin-left: 50px;
+}
+label {
+    text-transform: uppercase;
+}
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+h1:hover {
+    color: blue;
+}

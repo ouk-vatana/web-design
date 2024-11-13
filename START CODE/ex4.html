@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      .container {
+        display:flex;
+       flex-direction:column;
+       height:100vh;
+       gap:1rem;
+      }
+      header{
+        background:#1e90ff;
+        color:white;
+        border-radius:0.5rem;
+        box-shadow:5px 5px 5px#0077ea;
+        text-align:center;
+        padding:10px;
+        
+      }
+      footer {
+        color:white;
+        background:#4169e1;
+        border-radius:0.5rem;
+        box-shadow:5px 5px 5px #1d44b8;
+        text-align:center;
+        padding:10px;
+      }
+      .main-content{
+        display:flex;
+        flex:1;
+        overflow:hidden;
+      }
+
+      .main {
+        color:white;
+        display:flex;
+        flex-grow:1;
+        background-color:#3cb371;
+        border-radius:0.5rem;
+        box-shadow:5px 5px 5px #2f8d59;
+        flex-wrap:wrap;
+        gap:1rem;
+        padding:1rem;
+      }
+      #sidebar{
+        color:white;
+        background-color:#ff6347;
+        border-radius:0.5rem;
+        box-shadow:5px 5px 5px #e02200;
+        width:20%;
+        padding:20px;
+        margin-left:20px
+      }
+      .item{
+        background-color:#2f8d59;
+        border-radius:0.5rem;
+        box-shadow:5px 5px 5px #226741;
+        flex:1 1 200px;
+        text-align:center;  
+        padding:1rem;
+      }
+ 
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>Header</header>
+      <main class="main-content">
+        <div class="main">
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+        <div class="item">item6</div>
+        <div class="item">item7</div>
+        <div class="item">item8</div>
+        <div class="item">item9</div>
+        <div class="item">item10</div>
+        <div class="item">item11</div>
+        </div>
+        <div id="sidebar">sidebar</div>
+
+        </main>
+      <footer>Footer</footer>
+      </section>
+    </div>
+  </body>
+</html>

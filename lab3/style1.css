@@ -1,0 +1,52 @@
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    background-color:grey;
+    box-shadow:10px 7px 10px;
+
+  }
+  .title {
+    color: rgb(19, 19, 19);
+    font-size: 18px;
+  }
+  
+   .contact {
+    border:rgba(8, 111, 174, 0);
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(8, 67, 246);
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+    .contact{
+        background-color: #fafaff; 
+        border: 3px solid #080808; 
+        color: rgb(9, 9, 9);
+        font-size: 18px;
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s, border-color 0.3s; 
+        align-content:center;
+  }
+  .contact:hover {
+    background-color: #03188d; 
+    border-color: #24048e; 
+  }
+  
+
